@@ -1,0 +1,4 @@
+packages:
+  - "examples/*"
+  - "examples/0*"
+  - "examples/1*"
