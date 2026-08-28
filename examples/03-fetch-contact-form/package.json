@@ -1,1 +1,0 @@
-{"name":"@nuxt-form-examples/fetch-contact","private":true,"scripts":{"dev":"nuxt dev","build":"nuxt build"},"devDependencies":{"nuxt":"^4.5.2","typescript":"^5.9.3"}}
