@@ -1,0 +1,15 @@
+export default defineNuxtConfig({
+  compatibilityDate: '2026-08-29',
+  devtools: { enabled: true },
+  css: ['~/assets/style.css'],
+  runtimeConfig: {
+    public: {
+      smartFormifyEndpoint: process.env.NUXT_PUBLIC_SMART_FORMIFY_ENDPOINT || ''
+    }
+  },
+  app: {
+    head: {
+      title: 'Franchise Enquiry'
+    }
+  }
+})
